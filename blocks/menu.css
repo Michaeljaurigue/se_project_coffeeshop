@@ -35,6 +35,8 @@
 }
 
 .menu__cards {
+  flex-flow: row wrap;
+  list-style: none;
   /*display: flex;
   align-content: center;
   justify-content: center;*/
