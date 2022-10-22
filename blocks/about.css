@@ -24,6 +24,9 @@
 
 .about__content {
   max-width: 600px;
+  margin-right: 80px;
+  /* margin-bottom: 173px;
+  margin-top: 119px; */
 }
 
 .about__paragraph {

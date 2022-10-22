@@ -5,16 +5,17 @@
   color: White;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-self: center;
-  align-items: center;
-  align-content: space-around;
+  /* justify-content: center; */
+  /* align-self: center; */
+  /* align-items: center; */
+  /* align-content: space-around; */
 }
 
 .menu__title {
   max-width: 780px;
   margin-top: 100px;
   margin-bottom: 24px;
+  align-self: center;
 
   font-family: "Inter, serif";
   font-style: normal;
@@ -26,6 +27,7 @@
 .menu__subtitle {
   max-width: 780px;
   margin-bottom: 100px;
+  align-self: center;
 
   font-family: "Noto Serif, serif";
   font-style: normal;
@@ -37,6 +39,10 @@
 .menu__cards {
   flex-flow: row wrap;
   list-style: none;
+  justify-content: center;
+  align-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
   /*display: flex;
   align-content: center;
   justify-content: center;*/
