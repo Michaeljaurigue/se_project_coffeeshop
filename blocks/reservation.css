@@ -78,6 +78,7 @@
   height: 20px;
   width: 20px;
   margin-left: 12px;
+  color: black;
 }
 
 .form__checkbox_parent {
@@ -94,7 +95,7 @@ input:focus {
 }
 
 input[type="checkbox"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  /* -webkit-appearance: none; */
+  /* -moz-appearance: none; */
+  /* appearance: none; */
 }
