@@ -1,0 +1,33 @@
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  list-style: none;
+  /* margin-bottom: 0px;
+  padding-left: 0;
+  margin-top: 8px; */
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  /* font-weight: bold; */
+  transition: color 0.3s ease-in-out;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
