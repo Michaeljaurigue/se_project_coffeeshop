@@ -1,7 +1,7 @@
 .menu {
   background-color: #0a2750;
   background-image: url("../images/background_menu.svg");
-  color: White;
+  color: white;
   display: flex;
   flex-direction: column;
 }

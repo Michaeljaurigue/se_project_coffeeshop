@@ -204,13 +204,19 @@
                 />
 
                 <label for="dateTime" class="form__label">Date and Time</label>
-                <input required type="datetime-local" class="form__input" />
+                <input
+                  required
+                  type="datetime-local"
+                  class="form__input"
+                  id="dateTime"
+                />
 
                 <label for="email" class="form__label">Email</label>
                 <input
                   type="email"
                   placeholder="email@email.com"
                   class="form__input"
+                  id="email"
                 />
 
                 <button type="submit" class="form__button">Book a table</button>
@@ -252,40 +258,40 @@
         </section>
       </main>
     </div>
+    <footer id="footer" class="footer">
+      <div class="footer__columns">
+        <div class="footer__column">
+          <img
+            src="./images/practicum_logo.svg"
+            class="footer__logo"
+            alt="Practicum Logo"
+          />
+        </div>
+        <div class="footer__column footer__column_content_social">
+          <h2 class="footer__column-heading">Social Media</h2>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="#" class="footer__column-link"
+                ><img
+                  src="./images/facebook_white.svg"
+                  alt="Facebook"
+                  class="footer__social-icon"
+                />Facebook</a
+              >
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__column-link">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="Instagram"
+                  class="footer__social-icon"
+                />Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">&copy; 2022 Michael Jaurigue</p>
+    </footer>
   </body>
-  <footer id="footer" class="footer">
-    <div class="footer__columns">
-      <div class="footer__column">
-        <img
-          src="./images/practicum_logo.svg"
-          class="footer__logo"
-          alt="Practicum Logo"
-        />
-      </div>
-      <div class="footer__column footer__column_content_social">
-        <h2 class="footer__column-heading">Social Media</h2>
-        <ul class="footer__list">
-          <li class="footer__list-item">
-            <a href="#" class="footer__column-link"
-              ><img
-                src="./images/facebook_white.svg"
-                alt="Facebook"
-                class="footer__social-icon"
-              />Facebook</a
-            >
-          </li>
-          <li class="footer__list-item">
-            <a href="#" class="footer__column-link">
-              <img
-                src="./images/instagram_white.svg"
-                alt="Instagram"
-                class="footer__social-icon"
-              />Instagram</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-    <p class="footer__copyright">&copy; 2022 Michael Jaurigue</p>
-  </footer>
 </html>
