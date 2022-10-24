@@ -46,7 +46,7 @@
   background-color: #ccc;
 }
 
-.recipes__video_caption {
+.recipes__video-caption {
   margin: 24px 0;
   display: flex;
   justify-content: space-between;
