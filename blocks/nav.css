@@ -18,12 +18,12 @@
   list-style: none;
 }
 
-.nav__link {
+.nav__links_item {
   color: #000000;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
 
-.nav__link:hover {
+.nav__links_item:hover {
   color: #2f80ed;
 }
