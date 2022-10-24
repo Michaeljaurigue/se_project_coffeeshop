@@ -25,8 +25,6 @@
 .about__content {
   max-width: 600px;
   margin-right: 80px;
-  /* margin-bottom: 173px;
-  margin-top: 119px; */
 }
 
 .about__paragraph {
@@ -48,11 +46,6 @@
   transform-origin: center;
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
-
-/* .about__circle_animation_blured {
-  transform-origin: center;
-  animation: pulsate 1.3s ease-in-out 0s infinite;
-} */
 
 @keyframes pulsate {
   0% {

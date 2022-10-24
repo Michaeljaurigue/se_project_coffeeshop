@@ -17,7 +17,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap"
       rel="stylesheet"
     />
-</head>
   </head>
 
   <body>
@@ -179,21 +178,32 @@
         <section class="reservation" id="#reservation">
           <h3 class="reservation__title">Book a table</h3>
           <div class="reservation__form">
-            <form action="" method="get" class="reservation__form">
+            <form method="get" class="reservation__form">
               <fieldset class="form__fieldset">
                 <label for="name" class="form__label">Name </label>
-                <input required type="text" name"name" id="name"
-                class="form__input" placeholder="Name Surname">
+                <input
+                  required
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form__input"
+                  placeholder="Name Surname"
+                />
 
-                <label for="number of guests" class="form__label"
+                <label for="guests" class="form__label"
                   >Number of Guests
                 </label>
-                <input required type="number" name"personCount" min="1" max="8"
-                id="number of guests" placeholder="1-8">
+                <input
+                  required
+                  type="number"
+                  name="personCount"
+                  min="1"
+                  max="8"
+                  id="guests"
+                  placeholder="1-8"
+                />
 
-                <label for="date and time" class="form__label"
-                  >Date and Time
-                </label>
+                <label for="dateTime" class="form__label">Date and Time</label>
                 <input required type="datetime-local" class="form__input" />
 
                 <label for="email" class="form__label">Email</label>
@@ -206,8 +216,13 @@
                 <button type="submit" class="form__button">Book a table</button>
 
                 <div class="form__checkbox_parent">
-                  <input required type="checkbox" name"checkbox" id="checkbox"
-                  class="form__checkbox"/>
+                  <input
+                    required
+                    type="checkbox"
+                    name="checkbox"
+                    id="checkbox"
+                    class="form__checkbox"
+                  />
                   <label for="name" class="form__label"
                     >I agree with the terms of use</label
                   >
@@ -246,13 +261,6 @@
           class="footer__logo"
           alt="Practicum Logo"
         />
-      </div>
-      <div class="footer__column footer__column_content_hours">
-        <h2 class="footer__column-heading">Hours</h2>
-        <ul class="footer__list">
-          <li class="footer__list-item">Weekends: 10am - 6pm</li>
-          <li class="footer__list-item">Weekends: 10am - 6pm</li>
-        </ul>
       </div>
       <div class="footer__column footer__column_content_social">
         <h2 class="footer__column-heading">Social Media</h2>

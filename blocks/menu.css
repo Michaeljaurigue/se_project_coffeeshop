@@ -1,14 +1,9 @@
 .menu {
   background-color: #0a2750;
   background-image: url("../images/background_menu.svg");
-  size: cover;
   color: White;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-self: center; */
-  /* align-items: center; */
-  /* align-content: space-around; */
 }
 
 .menu__title {
@@ -26,9 +21,7 @@
 
 .menu__subtitle {
   max-width: 780px;
-  /* margin-bottom: 100px; */
   align-self: center;
-
   font-family: "Noto Serif, serif";
   font-style: normal;
   font-weight: normal;
@@ -44,30 +37,10 @@
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
-  /* align-content: center;
-  justify-content: center; */
-  /* margin-bottom: 100px; */
 }
-
-/* .menu__cards_row1 {
-  display: flex;
-  align-content: space-between; */
-/* align-content: center;
-  justify-content: center; */
-*/
-/* } */
-
-/* .menu__cards_row2 {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-} */
 
 .card {
   max-width: 600px;
-  /* display: flex;
-  justify-content: space-between;
-  flex-direction: column; */
 }
 
 .card__title {

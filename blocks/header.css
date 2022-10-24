@@ -12,22 +12,17 @@
   box-sizing: border-box;
 }
 
-.header__logo {
-  height: 125px;
-  width: 142px;
-}
-
 .header__title {
-  /* font-size: 66px;
-    line-height: 76px;
-    font-weight: 500; */
+  font-size: 66px;
+  line-height: 76px;
+  font-weight: 500;
   margin-left: 80px;
   margin-top: 80px;
   max-width: 729px;
 
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 60px;
   line-height: 72px;
 }
@@ -54,7 +49,6 @@
 }
 
 .header__image {
-  /* Write styles here */
   z-index: 1;
   height: 585px;
   width: 646px;
@@ -70,18 +64,15 @@
   left: 80px;
   bottom: 40px;
   width: 100%;
-  /* flex-direction: column; */
   align-items: flex-end;
   padding: 40px 80px 0;
   margin-right: 80px;
   align-content: space-around;
   justify-content: space-between;
   box-sizing: border-box;
-  /* border: 2px solid black; */
 }
 
 .header__paragraph {
-  /* margin: 0; */
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
