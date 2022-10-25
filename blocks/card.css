@@ -11,6 +11,7 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 32px;
 }
 
 .card__content {
@@ -22,6 +23,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  flex: 0 0 auto;
 }
 
 .card__list-item {
@@ -29,12 +31,14 @@
   display: flex;
   align-items: baseline;
   margin-bottom: 16px;
+  flex: 0 0 auto;
 }
 
 .card__list-divider {
   display: flex;
   flex-grow: 1;
   align-items: baseline;
+  flex: 1 1 100%;
 }
 
 .card__list-divider::after {
@@ -44,22 +48,4 @@
   margin-left: 8px;
   margin-right: 8px;
   flex-grow: 1;
-}
-
-.card {
-  max-width: 600px;
-}
-
-.card__title {
-  margin-bottom: 32px;
-}
-
-.card__content {
-  flex: 0 0 auto;
-}
-.card__list-item {
-  flex: 0 0 auto;
-}
-.card__list-divider {
-  flex: 1 1 100%;
 }
