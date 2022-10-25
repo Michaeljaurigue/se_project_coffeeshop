@@ -12,7 +12,7 @@
 .about__title {
   margin: 0;
   max-width: 251px;
-  font-family: "Inter", serif;
+  font-family: "Inter", "serif";
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -29,12 +29,24 @@
 
 .about__paragraph {
   margin: 0 0 20px;
-  font-family: "Noto Serif", serif;
+  font-family: "Noto Serif", "serif";
   font-size: 20px;
   line-height: 30px;
 }
 
 .about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 300px;
+  position: absolute;
+  left: -129px;
+  top: -178px;
+  z-index: 1;
+  transform-origin: center;
+}
+
+.about__circle_animation_blurred {
   background-color: #2f80ed;
   width: 426px;
   height: 426px;
@@ -56,6 +68,6 @@
   }
   100% {
     transform: scale(1.093);
-    opacity: 1;
+    opacity: 1.4;
   }
 }

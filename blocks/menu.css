@@ -12,7 +12,7 @@
   margin-bottom: 24px;
   align-self: center;
 
-  font-family: "Inter, serif";
+  font-family: "Inter", "serif";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -22,7 +22,7 @@
 .menu__subtitle {
   max-width: 780px;
   align-self: center;
-  font-family: "Noto Serif, serif";
+  font-family: "Noto Serif", "serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -37,22 +37,4 @@
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
-}
-
-.card {
-  max-width: 600px;
-}
-
-.card__title {
-  margin-bottom: 32px;
-}
-
-.card__content {
-  flex: 0 0 auto;
-}
-.card__list-item {
-  flex: 0 0 auto;
-}
-.card__list-divider {
-  flex: 1 1 100%;
 }
