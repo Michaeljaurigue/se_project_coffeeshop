@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practicum Coffee Shop</title>
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="./images/favicon_circles.ico" />
     <meta name="description" content="Practicum Coffee Shop Information" />
     <meta name="keywords" content="coffeeshop, praticum, prices, information" />
     <meta name="author" content="Michael Jaurigue" />
@@ -24,7 +24,7 @@
       <header class="header">
         <nav class="nav">
           <img
-            src=".//images/logo_coffee_shop.svg"
+            src="./images/logo_coffee_shop.svg"
             alt="Practicum Coffee Shop Logo"
             class="logo"
           />
@@ -83,22 +83,22 @@
               <h3 class="card__title">Filter</h3>
               <ul class="card__content">
                 <li class="card__list-item">
-                  <span class="card__list-divider">Regular (12 oz)</span> $1
+                  Regular (12 oz)<span class="card__list-divider"></span> $1
                 </li>
                 <li class="card__list-item">
-                  <span class="card__list-divider">Large (16 oz)</span> $1.25
+                  Large (16 oz)<span class="card__list-divider"></span> $1.25
                 </li>
                 <li class="card__list-item">
-                  <span class="card__list-divider">XL (20 oz) </span> $1.50
+                  XL (20 oz) <span class="card__list-divider"></span> $1.50
                 </li>
                 <li class="card__list-item">
-                  <span class="card__list-divider"
-                    >Party-size (24 oz, decaf)</span
-                  >
+                  Party-size (24 oz, decaf)<span
+                    class="card__list-divider"
+                  ></span>
                   $1.75
                 </li>
                 <li class="card__list-item">
-                  <span class="card__list-divider">Iced Coffee (16 oz) </span>
+                  Iced Coffee (16 oz) <span class="card__list-divider"></span>
                   $1.25
                 </li>
               </ul>
@@ -108,18 +108,17 @@
               <h3 class="card__title">Espresso</h3>
               <ul class="card__content">
                 <li class="card__list-item">
-                  <span class="card__list-divider">Macchiato </span> $2.25
+                  Macchiato<span class="card__list-divider"></span> $2.25
                 </li>
                 <li class="card__list-item">
-                  <span class="card__list-divider">Cortado </span> $1.50
+                  Cortado <span class="card__list-divider"></span> $1.50
                 </li>
                 <li class="card__list-item">
-                  <span class="card__list-divider"> Mocha</span> $3
+                  Mocha<span class="card__list-divider"></span> $3
                 </li>
                 <li class="card__list-item">
-                  <span class="card__list-divider"
-                    >Sunrise in the Bay Area (decaf)
-                  </span>
+                  Sunrise in the Bay Area (decaf)
+                  <span class="card__list-divider"></span>
                   $10
                 </li>
               </ul>
@@ -129,20 +128,20 @@
               <h3 class="card__title">Baked Goods</h3>
               <ul class="card__content">
                 <li class="card__list-item">
-                  <span class="card__list-divider">Almond Croissant </span> $2
+                  Almond Croissant <span class="card__list-divider"></span> $2
                 </li>
                 <li class="card__list-item">
-                  <span class="card__list-divider"> Banana Bread </span> $1.75
+                  Banana Bread <span class="card__list-divider"></span> $1.75
                 </li>
                 <li class="card__list-item">
-                  <span class="card__list-divider"> Key Lime Pie </span> $3
+                  Key Lime Pie <span class="card__list-divider"></span> $3
                 </li>
                 <li class="card__list-item">
-                  <span class="card__list-divider">Blue Velvet Cake</span>
+                  Blue Velvet Cake<span class="card__list-divider"></span>
                   $3.75
                 </li>
                 <li class="card__list-item">
-                  <span class="card__list-divider"> Web Cookie</span> $0.25
+                  Web Cookie<span class="card__list-divider"></span> $0.25
                 </li>
               </ul>
             </li>
@@ -184,10 +183,10 @@
         </section>
 
         <section class="reservation" id="reservation">
-          <h3 class="reservation__title">Book a table</h3>
+          <h2 class="reservation__title">Book a table</h2>
           <form method="get" class="form reservation__form">
             <fieldset class="form__fieldset">
-              <label for="name" class="form__label">Name </label>
+              <label class="form__label">Name </label>
               <input
                 required
                 type="text"
@@ -227,7 +226,7 @@
 
               <button type="submit" class="form__button">Book a table</button>
 
-              <div class="form__checkbox-parent">
+              <fieldset class="form__checkbox-parent">
                 <input
                   required
                   type="checkbox"
@@ -238,13 +237,13 @@
                 <label for="name" class="form__label"
                   >I agree with the terms of use</label
                 >
-              </div>
+              </fieldset>
             </fieldset>
           </form>
         </section>
 
         <section class="about" id="about">
-          <h3 class="about__title">About the coffee shop</h3>
+          <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
               Our coffee shop is located in the Practicum Library's hall. It
@@ -258,11 +257,9 @@
               don't sell single-use cups. But you can buy one of our reusable
               cups!
             </p>
-            <div>
-              <div class="about__circle"></div>
-              <div class="about__circle about__circle_animation_blurred"></div>
-            </div>
           </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer id="footer" class="footer">
